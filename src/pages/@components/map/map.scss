@@ -1,0 +1,18 @@
+.map {
+  &-marker {
+    display: flex;
+    align-items: center;
+    svg {
+      min-width: 26px;
+      width: 26px;
+      height: 26px;
+      margin-right: 10px;
+    }
+    p {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 100%;
+      white-space: nowrap;
+    }
+  }
+}

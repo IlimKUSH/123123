@@ -1,0 +1,25 @@
+.breadcrumbs {
+    padding: 30px 0 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.breadcrumbs__link,
+.breadcrumbs__divider {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    opacity: 0.5;
+}
+.breadcrumbs__link:last-of-type {
+    pointer-events: none;
+}
+.breadcrumbs__divider {
+    margin: 0 3px;
+}
+
+@media (max-width: 767px) {
+    .breadcrumbs {
+        padding: 16px 0;
+    }
+}

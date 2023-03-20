@@ -1,0 +1,13 @@
+.section-slider-popular {
+  position: relative;
+  background: url('../../assets/images/bg-popular-products.png') no-repeat right center/cover;
+}
+
+.section-slider-sales-products {
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-image: url('../../assets/images/bg-sales-products.svg');
+  background-position: left top;
+  background-repeat: no-repeat;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
